@@ -33,3 +33,5 @@ logging:
       hibernate:
         type.descriptor.sql: trace
         SQL: debug
+
+REST_API_KEY: ${KAKAO_REST_API_KEY}
