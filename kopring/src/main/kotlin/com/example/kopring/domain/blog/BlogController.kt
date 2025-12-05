@@ -17,4 +17,7 @@ class BlogController(
         val result = blogService.searchKakao(blogDto)
         return result
     }
+
+    @GetMapping("/rank")
+    fun searchWordRank(): List<Wordcount> = blogService.searchWordRank()
 }
