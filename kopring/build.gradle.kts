@@ -39,6 +39,8 @@ dependencies {
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 
     implementation("org.springframework:spring-webflux")
+    implementation("org.springframework.boot:spring-boot-starter-validation")
+
 }
 
 kotlin {
